@@ -26,9 +26,9 @@ and content fields of the Posts feature.
    is intercepted before clicking View Post, insert the XSS payload in the 
    same manner.
 
-Payload:
-Title  : <img src=x onerror=alert(document.cookie);>
-Content: <img src=x onerror=alert(2);>
+Payload
+<img width="289" height="81" alt="image" src="https://github.com/user-attachments/assets/f58b7717-2cfd-4dce-b6cd-2dadedd3c389" />
+
 <img width="960" height="446" alt="5" src="https://github.com/user-attachments/assets/6b49ec44-ea32-4a7f-8abb-a18e8ea90a43" />
 
 6. After uploading the post, click View Post to access the published post.
